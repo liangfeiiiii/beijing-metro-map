@@ -31,7 +31,7 @@ export default function App() {
       <header className="app-header">
         <h1 className="app-title">北京地铁小站书</h1>
         <p className="app-lead">
-          用一张可读的"纸面线路图"，随手点开一座车站，读一点线路故事、车型线索与沿革。
+          在真实地图上叠加地铁线路，随手点开一座车站，读一点线路故事、车型线索与沿革。
         </p>
       </header>
 

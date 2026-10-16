@@ -51,38 +51,6 @@
   width: 100%;
 }
 
-.reader-empty {
-  background: var(--paper);
-  border: 1px solid var(--ink-faint);
-  border-radius: 8px;
-  padding: 1.15rem 1.2rem 1.25rem;
-}
-
-.reader-empty-title {
-  margin: 0;
-  font-family: var(--font-title-zh);
-  font-size: 1.55rem;
-  font-weight: 400;
-}
-
-.reader-empty-body {
-  margin: 0.55rem 0 0;
-  font-family: var(--font-body-zh);
-  font-size: 1.08rem;
-  font-weight: 600;
-  line-height: 1.75;
-  color: var(--ink);
-}
-
-.reader-empty-en {
-  margin: 0.65rem 0 0;
-  font-family: var(--font-body-en);
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.6;
-  color: var(--ink-muted);
-}
-
 .reader-sheet {
   background: var(--paper);
   border: 1px solid var(--ink-faint);
