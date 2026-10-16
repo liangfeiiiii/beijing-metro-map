@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light;
+  --paper: #f3e9d2;
+  --paper-deep: #efe4cc;
+  --ink: #1f1812;
+  --ink-muted: #4d3f32;
+  --ink-faint: rgba(31, 24, 18, 0.22);
+  --font-title-zh: "Ma Shan Zheng", "KaiTi", "STKaiti", serif;
+  --font-body-zh: "Noto Serif SC", "Songti SC", "SimSun", serif;
+  --font-body-en: "Caveat", "Patrick Hand", cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body-zh);
+  font-weight: 500;
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 18% 8%, rgba(255, 255, 255, 0.45), transparent 42%),
+    linear-gradient(to bottom, #f7efd8, #f0e4c8);
+  color: var(--ink);
+}
+
+#root {
+  min-height: 100vh;
+}

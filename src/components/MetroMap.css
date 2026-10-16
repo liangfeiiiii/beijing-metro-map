@@ -1,0 +1,73 @@
+.metro-map-container {
+  width: 100%;
+  height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.metro-map {
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5;
+}
+
+.leaflet-container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.station-tooltip {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+}
+
+.leaflet-tooltip-top::before {
+  border-top-color: #fff;
+}
+
+.leaflet-tooltip {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-tooltip-top {
+  margin-top: -10px;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+}
+
+.leaflet-control-zoom a {
+  background: #fff !important;
+  color: #333 !important;
+  border: none !important;
+  width: 32px !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  font-size: 16px !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: #f5f5f5 !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.8) !important;
+  font-size: 10px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #666 !important;
+}
+
+@media (max-width: 768px) {
+  .metro-map-container {
+    height: 400px;
+    border-radius: 8px;
+  }
+}
